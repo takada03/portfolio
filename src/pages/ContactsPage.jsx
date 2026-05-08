@@ -1,7 +1,9 @@
 export default function ContactsPage() {
   return (
-    <section className="min-h-screen px-6 pt-40 pb-20">
+    <section className="min-h-screen flex items-center justify-center px-6">
+
       <div className="max-w-4xl mx-auto text-center">
+
         <p className="uppercase tracking-[0.3em] text-gray-500 mb-6 text-sm">
           Contacts
         </p>
@@ -15,17 +17,24 @@ export default function ContactsPage() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-6">
-          <div className="px-6 py-4 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl">
-            example@gmail.com
-          </div>
 
-          <div className="px-6 py-4 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl">
-            Instagram
-          </div>
+          <a
+            href="mailto:example@gmail.com"
+            className="px-6 py-4 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl hover:border-white transition"
+          >
+            anyaosk8592163@gmail.com
+          </a>
 
-          <div className="px-6 py-4 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl">
+        
+
+          <a
+            href="https://t.me/anita_revva"
+            target="_blank"
+            className="px-6 py-4 rounded-full bg-white/5 border border-white/10 backdrop-blur-xl hover:border-white transition"
+          >
             Telegram
-          </div>
+          </a>
+
         </div>
       </div>
     </section>

@@ -8,11 +8,11 @@ import {
 import { AnimatePresence, motion } from 'framer-motion'
 
 import Navbar from './components/Navbar'
-import CustomCursor from './components/CustomCursor'
+import ContactsPage from './pages/ContactsPage'
 import Home from './pages/Home'
 import GalleryPage from './pages/GalleryPage'
 import VideoPage from './pages/VideoPage'
-
+import CustomCursor from './components/CustomCursor'
 function AnimatedRoutes() {
   const location = useLocation()
 
@@ -32,6 +32,7 @@ function AnimatedRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/video" element={<VideoPage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
         </Routes>
       </motion.div>
     </AnimatePresence>

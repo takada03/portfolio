@@ -17,7 +17,7 @@ export default function Home(){
           </h1>
 
           <p className="text-xl text-gray-400 leading-relaxed max-w-xl mb-10">
-            Студентка 4 курса факультета начального образования, 270322 группы.
+            Студентка 4 курса факультета начального образования, 270222 группы.
           </p>
 
           <div className="flex gap-4 flex-wrap">

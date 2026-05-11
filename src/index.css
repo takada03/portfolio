@@ -1,16 +1,15 @@
 @import "tailwindcss";
 
-html {
-  scroll-behavior: smooth;
+body{
+  background:#050505;
+  color:white;
+  overflow-x:hidden;
+  font-family:Arial,sans-serif;
 }
 
-body {
-  background: #050505;
-  color: white;
-  overflow-x: hidden;
-  font-family: Inter, sans-serif;
+html{
+  scroll-behavior:smooth;
 }
-
-* {
-  cursor: none;
+*{
+  cursor:none;
 }

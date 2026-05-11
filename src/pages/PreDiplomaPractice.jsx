@@ -15,12 +15,12 @@ import { useRef, useState } from 'react'
 const documents = [
   {
     title: 'Индивидуальный план',
-    file: '/docs/pre-diploma/pre-diploma-plan.pdf',
+    file: '/docs/pre-diploma/individual-plan.docx',
   },
 
   {
-    title: 'Конспект урока №1',
-    file: '/docs/pre-diploma/lesson-1.pdf',
+    title: 'Задание по психологии',
+    file: '/docs/pre-diploma/psyhology.docx',
   },
 
   {
@@ -35,7 +35,7 @@ const documents = [
 
   {
     title: 'Отчёт по практике',
-    file: '/docs/pre-diploma/pre-diploma-report.pdf',
+    file: '/docs/pre-diploma/report.docx',
   },
 ]
 
